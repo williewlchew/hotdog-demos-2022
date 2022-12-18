@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement>
+        <ui:Label text="Currently in Scene Examples Scene" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; -unity-font-style: bold;" />
+        <ui:Label text="Press 1 or 2:&#10;1 - Ui Examples Scene&#10;2 - Nav Mesh Examples Scene" display-tooltip-when-elided="true" style="-unity-text-align: upper-center;" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UnityExamples/UiExamples/TabbedMenu/TabbedMenu.uss?fileID=7433441132597879392&amp;guid=e2681ba5a27cee04cac6279b8db70b36&amp;type=3#TabbedMenu" />
+    <ui:VisualElement name="tabbedMenu">
+        <ui:VisualElement name="tabs">
+            <ui:Label text="London" display-tooltip-when-elided="true" name="LondonTab" class="tab currentlySelectedTab" />
+            <ui:Label text="Paris" display-tooltip-when-elided="true" name="ParisTab" class="tab" />
+            <ui:Label text="Ottawa" display-tooltip-when-elided="true" name="OttawaTab" class="tab" />
+        </ui:VisualElement>
+        <ui:VisualElement name="tabContent">
+            <ui:Label text="London is my city" display-tooltip-when-elided="true" name="LondonContent" />
+            <ui:Label text="Paris is where the fellas are at" display-tooltip-when-elided="true" name="ParisContent" class="unselectedContent" />
+            <ui:Label text="Ottwa Senators" display-tooltip-when-elided="true" name="OttawaContent" class="unselectedContent" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
