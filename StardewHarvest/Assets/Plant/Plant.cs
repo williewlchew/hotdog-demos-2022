@@ -6,7 +6,7 @@ public class Plant : MonoBehaviour
 {
     public int state;
     public bool watered;
-    public SpriteRenderer sprite;
+    public PlantViewer plantViewer;
 
     void OnEnable()
     {
@@ -24,9 +24,15 @@ public class Plant : MonoBehaviour
         {
             state += 1;
         }
+        else if(state >= 3)
+        {
+            state = 3;
+        }
         else
         {
             state = 0;
         }
+
+        plantViewer.Refresh();
     }
 }

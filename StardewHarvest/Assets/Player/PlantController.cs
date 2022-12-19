@@ -8,6 +8,8 @@ public class PlantController : MonoBehaviour
     public int Tend(Plant _plant)
     {
         _plant.state += 1;
+
+        _plant.plantViewer.Refresh();
         return 0;
     }
 
@@ -18,12 +20,16 @@ public class PlantController : MonoBehaviour
             return 1;
         }
         _plant.state = 0;
+
+        _plant.plantViewer.Refresh();
         return 0;
     }
 
     public int Water(Plant _plant)
     {
         _plant.watered = true;
+
+        _plant.plantViewer.Refresh();
         return 0;
     }
 }

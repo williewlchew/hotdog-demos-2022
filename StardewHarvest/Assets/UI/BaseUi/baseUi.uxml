@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="baseUi" style="flex-direction: row;">
+        <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="score" />
+        <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="day" />
+    </ui:VisualElement>
+</ui:UXML>
