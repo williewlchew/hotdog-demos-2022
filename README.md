@@ -10,7 +10,7 @@
   * Sept - Oct 2022 
 ### 3. Cubebot (Run Cubeungus)
   * Oct 2022 
-  * Entry for Lurem Dare 51 game jam
+  * Entry for Ludum Dare 51 game jam
 ### 4. pop_temp
   * Oct 2022 
   * Experiment with 2D player movement and physics
