@@ -20,5 +20,5 @@
   * Experiment with patterns needed for an turn-based rpg
   * Unfinished
 ### 6. StardewHarvest
-  * Dec 2022 - Ongoing
+  * Dec 2022 - Jan 2023
 
